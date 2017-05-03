@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The bug appeared in the new version, so searching among the differences makes sense since it's probably there that
+    the bug has been introduced.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It can either help a programmer to seek more easily the origin of any issue, or also permits him
+    to get intel on what is the best way to make this or that feature.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+     The pros are that you can specify what each of the commits correspond to and you can be more accurate
+     on a commit to for example don't commit a version you don't want to keep.
+     The cons are that you may miss important informations between two commits such as
+     an interesting feature tested then erased beacause of deceiving tests : the test may have been
+     pertinents, however the feature specification still may be usefull later when trying again
+     or brainstorming for example.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+      Maybe because Google Docs'purpose is to work on single document project while the aim
+      of git is to manage the entire project as a whole.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log allows to see the previous changements to a repo and its file while git diff permits to
+    comparated the file across two commits. The option '--stat' is reallys useful in either case.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+      It eventually can because each version commited is saved so any change can easily be tracked and reverted.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Well, I already used git many times git at this point. My goal is to improve my knowledge of this tool.
