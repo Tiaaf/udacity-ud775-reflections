@@ -5,6 +5,9 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+     The staging area stores only the files which will be included in the next commit. The repository is not aware of these changes yet nor it is aware of all the changes in the working directory, and the working directory may have more differences that might be added in an upcoming commit.
+     It offers the possibility to parse the modifications of a repository in small logical changes, so that each commit will retain more sense, more meaning.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
