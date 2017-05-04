@@ -20,6 +20,8 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+    The diagram structure correspond to the branch structure and is something we're more used to. So understanding the diagram structure is both easier and allow us to understand the branch structure (and so visualize it).
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
