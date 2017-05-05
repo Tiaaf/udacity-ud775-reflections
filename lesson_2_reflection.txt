@@ -22,8 +22,10 @@ How do the diagrams help you visualize the branch structure?
 
     The diagram structure correspond to the branch structure and is something we're more used to. So understanding the diagram structure is both easier and allow us to understand the branch structure (and so visualize it).
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    The result is a mix of the two branches, a logical fusion of their common parts plus their modifications (adds/deletes).
+    Such a representation in the diagram is due to the fact that they'll then share a common history, with the resulting commit pointing at both the merged commits.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
