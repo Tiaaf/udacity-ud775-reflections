@@ -29,3 +29,6 @@ What is the result of merging two branches together? Why do we represent it in t
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+        Pros : Fast, easy.
+        Cons : Not secure, errors may occur.
