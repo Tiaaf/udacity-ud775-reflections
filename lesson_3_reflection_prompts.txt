@@ -11,7 +11,9 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forking is specific to Github. It is taking a repo on github into a copy under our own account. Better use it to work on somenone else project, and maybe later propose a pull request to improve the original work.
+    Cloning is taking a repo, local or not, and making a copy of it, which will point at the cloned one. It is used to work locally on a project and have many persons/places where from work on a project.
+    Branching is spliting a repo into a non-linear history of commits. It is useful to implement new features or test new features without affecting the main project's history.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
